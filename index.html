@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Deep Dive - Endless Descent</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <canvas id="game"></canvas>
+        <div id="hud">Depth: 0m</div>
+
+        <div id="start-screen" class="overlay">
+            <h1>Deep Dive</h1>
+            <p>Endless Descent</p>
+            <button id="start-btn">Start</button>
+        </div>
+
+        <div id="death-screen" class="overlay">
+            <h1 id="death-msg">You sank 0m</h1>
+            <button id="retry-btn">Try Again</button>
+        </div>
+    
+    
+    <script src="background.js"></script>
+    <script src="player.js"></script>
+    <script src="obstacles.js"></script>
+    <script src="game.js"></script>
+    </body>
+</html>
