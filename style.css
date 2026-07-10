@@ -1,0 +1,32 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #0a1a2f;
+}
+canvas {
+    display: block;
+}
+
+#hud {
+    position: fixed;
+    top:12px;
+    left:12px;
+    color:#dff;
+    font-family: monospace;
+    font-size: 18px;
+    text-shadow: 0 0 4px #000;
+}
+#msg {
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 22px;
+    text-shadow: 0 0 6px #000;
+    display: none;
+
+}
